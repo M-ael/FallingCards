@@ -1,0 +1,17 @@
+- Beautify dark mode (more dark blue instead of green)
+- Bring 10s maximum delay down to 4s
+- Add satisfying, smooth sound effects
+- Esc for stop button
+- Double tap element for reset
+- Fix Stop button not working while in game
+- Resize, center and add small square to stop button
+- Fix default delimiter not saying "\n"
+- Ignore text of answer in brackets (but don't count as wrong)
+
+- Add slight delay after ending a game, where starting a new one doesn't work
+- Rename delimiter to separator
+- Add Comments
+
+- Add swap button, to swap text and answer
+
+- Fix slider transition being instant
