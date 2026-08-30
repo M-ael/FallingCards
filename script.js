@@ -19,7 +19,7 @@ let gameInProgress = false;
 
 // Load saved settings from localStorage
 document.getElementById('cardDataInput').value = localStorage.getItem('cardData') || '';
-document.getElementById('cardDelimiter').value = localStorage.getItem('cardDelimiter') || '\n';
+document.getElementById('cardDelimiter').value = localStorage.getItem('cardDelimiter') || '\\n';
 document.getElementById('textAnswerDelimiter').value = localStorage.getItem('textAnswerDelimiter') || ', ';
 document.getElementById('spawnDelay').value = localStorage.getItem('spawnDelay') || spawnDelay;
 document.getElementById('spawnDelayValue').textContent = `${document.getElementById('spawnDelay').value * spawnDelayMultiplier}`;
